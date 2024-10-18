@@ -1,0 +1,21 @@
+{
+    "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+    "importOrder": [
+        "<THIRD_PARTY_MODULES>",
+        "",
+        "@/services/",
+        "",
+        "@/helpers/",
+        "",
+        "@/constants/",
+        "",
+        "@/types/",
+        "",
+        "^[./]"
+    ],
+    "printWidth": 80,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "singleQuote": false,
+    "semi": true
+}
